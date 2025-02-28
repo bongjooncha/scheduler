@@ -1,0 +1,21 @@
+** 필요기능
+
+routine
+0. 매일 루틴
+
+daily
+1. 일정 체크
+2. 일기
+3. 시간 별 일정
+
+long
+4. 이번주,달 목표 + 주요 일정
+5. 주요 일정 d-daily
+
+
+------
+기술 사용
+web: react
+back: flask
+db: mongoDB
+phone: ios
