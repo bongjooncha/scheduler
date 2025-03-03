@@ -1,0 +1,18 @@
+# 줄바꿈 문자 자동 변환 설정
+* text=auto
+
+# Windows 스크립트 파일은 CRLF 유지
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell 스크립트 파일은 LF 유지
+*.sh text eol=lf
+
+# Python 파일은 LF 유지
+*.py text eol=lf
+
+# 가상 환경 폴더는 Git에서 제외
+venv/
+
+# 환경 변수 파일은 Git에서 제외
+.env

@@ -1,0 +1,44 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: #3a3f4b;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.task-item.completed {
+  background-color: #2c3039;
+  opacity: 0.7;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.task-text {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}

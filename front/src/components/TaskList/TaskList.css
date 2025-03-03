@@ -1,0 +1,10 @@
+.task-list {
+  width: 100%;
+  max-width: 500px;
+}
+
+.no-tasks {
+  color: #aaa;
+  font-style: italic;
+  font-size: 18px;
+}
