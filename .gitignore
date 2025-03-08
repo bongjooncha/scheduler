@@ -1,5 +1,6 @@
 # Python 가상 환경
 venv/
+.venv/
 
 # Python 캐시 파일
 __pycache__/
